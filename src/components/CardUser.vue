@@ -22,8 +22,8 @@
       <div class="card-body">
         <h5 class="card-title">{{ user.name.first }} {{ user.name.last }}</h5>
         <form @submit.prevent="enviarMensaje" >
-          <input v-model="color" type="color" class="col-12"/>
-          <textarea v-model="message" class="col-12"></textarea>
+          <input v-model="color" type="color" class="col-12 rounded"/>
+          <textarea v-model="message" class="col-12 form-control mb-1" cols="5" required></textarea>
           <button class="btn btn-success col-12">Enviar</button>
         </form>
       </div>

@@ -29,7 +29,7 @@
   });
 </script>
 <template>
-  <h1>Chat MessengerA</h1>
+  <h1>MiChat</h1>
   <div class="chat-app-container container">
     <div class="row">
       <CardUser
@@ -48,4 +48,4 @@
     </div>
   </div>
 </template>
-<style></style>
+

@@ -7,7 +7,7 @@
   });
 </script>
 <template>
-  <div class="chatbox">
+  <div class="chatbox rounded shadow-lg">
     <div
       v-for="(message, index) in messages"
       :key="index"
@@ -23,6 +23,6 @@
 </template>
 <style scoped>
   .chatbox{
-    background-color: #f5f5dc;
+    background-color: #d2d2c6;
   }
 </style>
